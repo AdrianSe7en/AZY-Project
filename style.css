@@ -1,0 +1,451 @@
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+}
+
+#dashBoardNavAndSideBarWithContents .activeLink * {
+  color: #000000 !important;
+}
+
+#dashBoardNavAndSideBarWithContents .list-group-item {
+  border: none;
+}
+
+#dashBoardNavAndSideBarWithContents .menuTitle {
+  font-size: 4rem;
+  line-height: 5.2rem;
+  font-weight: bold;
+}
+
+#dashBoardNavAndSideBarWithContents .sideNavLinks * {
+  font-size: 2.4rem;
+}
+
+#dashBoardNavAndSideBarWithContents .sideNavLinks .list-group a {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+#dashBoardNavAndSideBarWithContents .sideNavLinks .list-group a p {
+  margin-left: 2rem;
+  background: #f2f2f2;
+  padding: 0.4rem 12rem 0.4rem 2rem;
+  border-radius: 5.8rem;
+  -webkit-border-radius: 5.8rem;
+  -moz-border-radius: 5.8rem;
+  -ms-border-radius: 5.8rem;
+  -o-border-radius: 5.8rem;
+  width: 100%;
+  color: #646464;
+  border: 0.1rem solid #f8f7f7;
+}
+
+#dashBoardNavAndSideBarWithContents .sideNavLinks .list-group a i {
+  color: #646464;
+}
+
+#dashBoardNavAndSideBarWithContents .sideNavLinks .list-group a:hover * {
+  color: #000000;
+}
+
+.navSideBar {
+  padding-top: 3.4rem;
+  position: relative;
+}
+.navSideBar .logOut {
+  position: absolute;
+  right: 1.5rem;
+  text-align: right;
+  margin-top: 50px;
+}
+.navSideBar .logOut a {
+  font-size: 2.4rem;
+  color: #646464;
+  text-decoration: none;
+}
+.navSideBar .logOut a i {
+  color: #b8b8b8;
+  padding-right: 1rem;
+}
+
+.ContentsWithNavbar .dashboardNavBar {
+  background-color: #01a05f;
+  padding: 1.5rem 0;
+}
+.ContentsWithNavbar .dashboardNavBar #searchBox {
+  font-size: 2.4rem;
+  color: #646464;
+  padding: 0.75rem 2rem;
+  background: #f2f2f2;
+  border: 0.1rem solid #f8f7f7;
+  border-radius: 5.8rem;
+  -webkit-border-radius: 5.8rem;
+  -moz-border-radius: 5.8rem;
+  -ms-border-radius: 5.8rem;
+  -o-border-radius: 5.8rem;
+}
+
+.timeAndNotification {
+  padding-right: 3rem;
+}
+.timeAndNotification .timeCtrl .time {
+  font-size: 2.4rem;
+  font-weight: normal;
+  color: #fff;
+}
+.timeAndNotification .timeCtrl .date {
+  font-size: 1.4rem;
+  color: #fff;
+  opacity: 0.84;
+}
+.timeAndNotification .chatCtrl,
+.timeAndNotification .notifications {
+  height: 6.5rem;
+  width: 6.5rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background: #1baa6f;
+  text-align: center;
+  font-size: 2.4rem;
+  line-height: 6.5rem;
+  color: #fff;
+  position: relative;
+}
+.timeAndNotification .chatCtrl .badgeCtrl,
+.timeAndNotification .notifications .badgeCtrl {
+  position: absolute;
+  padding: 0.5rem 1rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background: #32d679;
+  text-align: center;
+  line-height: 2.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+  top: -1.2rem;
+  right: -1.1rem;
+}
+
+.dashboardMain {
+  height: 100%;
+  background: #575757;
+  padding-right: 3rem;
+  padding-top: 2rem;
+}
+.dashboardMain .sectionTitle {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #fff;
+  margin: 0;
+}
+.dashboardMain .welcomeTxt {
+  font-size: 3rem;
+  font-weight: normal;
+  color: #fff;
+  margin: 0;
+}
+.dashboardMain .creatNewReport .btn {
+  padding: 0.5rem 4rem;
+  font-size: 2rem;
+  font-weight: normal;
+  color: #707070;
+  border-radius: 5.8rem;
+  -webkit-border-radius: 5.8rem;
+  -moz-border-radius: 5.8rem;
+  -ms-border-radius: 5.8rem;
+  -o-border-radius: 5.8rem;
+  background: #f2f2f2;
+  border: 0.1rem solid #f8f7f7;
+}
+
+.toatlReports {
+  padding: 0 7rem;
+  padding-top: 3rem;
+}
+.toatlReports .reportsTitle {
+  font-size: 2.4rem;
+  font-weight: normal;
+  color: #fff;
+}
+.toatlReports .reportsTitle .reportCount {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  text-align: center;
+  background: #32d679;
+  color: #fff;
+  line-height: 2.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: inline-block;
+  top: 0;
+}
+.toatlReports .problemList li p {
+  color: #707070;
+  font-size: 2rem;
+  background-color: #f2f2f2;
+  border: 0.1rem solid #f8f7f7;
+  border-radius: 3rem;
+  -webkit-border-radius: 3rem;
+  -moz-border-radius: 3rem;
+  -ms-border-radius: 3rem;
+  -o-border-radius: 3rem;
+  padding: 0.75rem 1.5rem;
+}
+.toatlReports .problemList li {
+  margin-top: 1.75rem;
+}
+.toatlReports .normalReports {
+  background-color: #4a4a4a;
+  border: 0.1rem solid #707070;
+  padding: 1rem 0.5rem;
+}
+.toatlReports .viewMoreReports a {
+  font-size: 2.4rem;
+  color: #fff;
+  opacity: 0.54;
+  text-decoration: none;
+}
+.toatlReports .emptyTxt {
+  font-size: 2rem;
+  text-align: center;
+  color: #707070;
+}
+
+.technicalSupport .normalReports {
+  padding: 1rem 5rem;
+}
+
+.buisnessReports {
+  padding-left: 5rem;
+}
+
+.grapController {
+  padding: 0 7rem;
+  padding-top: 3rem;
+}
+.grapController .singleGrap {
+  background-color: rgba(0, 0, 0, 0.096);
+}
+.grapController .singleGrap .currentPersentage {
+  font-size: 3.6rem;
+  color: #fff;
+}
+.grapController .singleGrap .Efficiency {
+  font-size: 1.7rem;
+  color: #fff;
+  opacity: 0.7;
+  padding-left: 1rem;
+  padding-top: 1.5rem;
+}
+.grapController .singleGrap .warningTxt {
+  font-size: 1.4rem;
+}
+.grapController .singleGrap .efWarning {
+  color: #00e965;
+}
+.grapController .singleGrap .repeatWarning {
+  color: #ff2c2c;
+}
+.grapController .singleGrap .costWarning {
+  color: #ff2c2c;
+}
+.grapController .liveGrapView {
+  background-color: #f2f2f2;
+}
+
+ .form-check-input:checked[type="radio"] {
+  background-image: none;
+  border: none;
+}
+
+ .form-check-input:checked {
+  background-color: #32d679;
+  border-color: #008238;
+}
+
+ .sectionTitle {
+  font-size: 4rem;
+  font-weight: bold;
+  padding: 3rem 0;
+}
+.modal-content {
+  background: transparent; }
+
+  .succssModal .modal-content {
+    border-radius: 5rem;
+    background: #ACACAC;
+    padding: 5rem 8rem;
+    -webkit-border-radius: 5rem;
+    -moz-border-radius: 5rem;
+    -ms-border-radius: 5rem;
+    -o-border-radius: 5rem; }
+    .succssModal .modal-content .modalWarningTitle {
+      font-size: 2.8rem;
+      font-weight: 500; }
+    .succssModal .modal-content .homeBtn {
+      font-size: 1.8rem;
+      padding: .5rem 4rem;
+      border-radius: .7rem;
+      -webkit-border-radius: .7rem;
+      -moz-border-radius: .7rem;
+      -ms-border-radius: .7rem;
+      -o-border-radius: .7rem; }
+
+.contactUsFormCtrl .contactType {
+  background-color: #575757;
+  height: 64.5rem;
+  padding: 2rem 1rem 2rem 1rem;
+  border-radius: 2rem 0 0 2rem;
+  padding: 0.5rem 1rem;
+  -webkit-border-radius: 2rem 0 0 2rem;
+  -moz-border-radius: 2rem 0 0 2rem;
+  -ms-border-radius: 2rem 0 0 2rem;
+  -o-border-radius: 2rem 0 0 2rem;
+}
+.contactUsFormCtrl .contactType .contactCatOne {
+  background: #fff;
+  margin-bottom: 4rem;
+  border: 0.1rem solid #707070;
+  border-radius: 0.7rem;
+  padding: 0.5rem 1rem;
+  -webkit-border-radius: 0.7rem;
+  -moz-border-radius: 0.7rem;
+  -ms-border-radius: 0.7rem;
+  -o-border-radius: 0.7rem;
+}
+.contactUsFormCtrl .contactType .contactCatOne * {
+  font-size: 2rem;
+}
+.contactUsFormCtrl .contactType .contactCatOne label {
+  cursor: pointer;
+}
+
+.contactFormHandle input,
+.contactFormHandle textarea {
+  padding: 0.75rem 1.5rem;
+  font-size: 2rem;
+  color: #848484;
+  border: none;
+  border-bottom: 1px solid #707070;
+  background: transparent;
+}
+
+.contactFormHandle label {
+  font-size: 2rem;
+  color: #575757;
+  padding-bottom: 1.5rem;
+}
+
+.contactFormHandle .form-control:focus {
+  border-radius: 1.9rem;
+  -webkit-border-radius: 1.9rem;
+  -moz-border-radius: 1.9rem;
+  -ms-border-radius: 1.9rem;
+  -o-border-radius: 1.9rem;
+  box-shadow: 0 0 0 0.25rem #707070;
+  border-color: #707070;
+}
+
+.sendBtn .btn {
+  padding: 0.75rem 4.5rem;
+  font-size: 2rem;
+  border-radius: 0.7rem;
+  -webkit-border-radius: 0.7rem;
+  -moz-border-radius: 0.7rem;
+  -ms-border-radius: 0.7rem;
+  -o-border-radius: 0.7rem;
+  border: 0.1rem solid #707070;
+  background: #fff;
+}
+
+.handleFromSite {
+  background: #acacac;
+  padding: 5rem 4rem;
+}
+
+@media screen and (max-width: 768px) {
+  .ContentsWithNavbar .dashboardNavBar {
+    background-color: #01a05f;
+    padding: 1.5rem 1rem;
+    margin-top: 6.5rem;
+  }
+  .navSideBar .logOut {
+    position: absolute;
+    right: 1.5rem;
+    bottom: -4rem;
+    text-align: right;
+  }
+  .timeAndNotification {
+    padding-right: 1rem;
+    padding-bottom: 3rem;
+    padding-top: 1.5rem;
+  }
+  .notificationOrderInMobile {
+    order: -1;
+  }
+  .dashboardMain .sectionTitle {
+    font-size: 3rem;
+  }
+  .dashboardMain .welcomeTxt {
+    font-size: 2rem;
+  }
+  .creatNewReport {
+    margin-top: 2rem;
+  }
+  .toatlReports {
+    padding: 0;
+    padding-top: 0px;
+    padding-top: 3rem;
+  }
+  .dashboardMain {
+    height: auto;
+    background: #575757;
+    padding-right: 0;
+    padding-top: 2rem;
+    margin-bottom: 3rem;
+  }
+  .buisnessReports {
+    padding-left: 1rem;
+  }
+  .technicalSupport .normalReports {
+    padding: 1rem 1rem;
+  }
+  .grapController {
+    padding: 0 0;
+    padding-top: 3rem;
+  }
+  .toatlReports .problemList li p {
+    font-size: 1.7rem;
+  }
+  .navSideBar {
+    padding-top: 3rem;
+  }
+  .contactUsFormCtrl .contactType {
+    height: 26.2rem;
+  }
+  .contactUsFormCtrl .contactType {
+    background-color: #575757;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+  }
+}
